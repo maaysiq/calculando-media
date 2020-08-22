@@ -1,18 +1,20 @@
 const input = require("readline-sync");
 
-const nota1 = input.question ("Digite a Nota 1  ")
+const nota1 = input.question ("Insira a Nota 1  ")
 
-const nota2 = input.question ("Digite a Nota 2  ")
+const nota2 = input.question ("Insira a Nota 2  ")
 
-const nota3 = input.question ("Digite a Nota 3  ")
+const nota3 = input.question ("Insira a Nota 3  ")
 
-const nota4 = input.question ("Digite a Nota 4  ")
+const nota4 = input.question ("Insira a Nota 4  ")
 
-const nota5 = input.question ("Digite a Nota 5  ")
+const nota5 = input.question ("Insira a Nota 5  ")
 
-const total = parseFloat (nota1) + parseFloat (nota2) + parseFloat (nota3) + parseFloat (nota4) + parseFloat (nota5)
+const nota6 = input.question ("Insira a Nota 6  ")
 
-const media = total / 5
+const total = parseFloat (nota1) + parseFloat (nota2) + parseFloat (nota3) + parseFloat (nota4) + parseFloat (nota5) + parseFloat (nota6)
+
+const media = total / 6
 
 console.log (`Sua média é: ${media}  `)
 
